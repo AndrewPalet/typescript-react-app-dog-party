@@ -14,7 +14,14 @@ interface IState{
 
 function App() {
 
-  const [people, setPeople] = useState<IState['people']>([])
+  const [people, setPeople] = useState<IState['people']>([
+    {
+      name: 'Tex the Doberman',
+      age: 1,
+      url: 'https://cdn.pixabay.com/photo/2019/10/08/11/10/doberman-pinscher-4534710_640.jpg',
+      note: 'Crackhead'
+    }
+  ])
 
 people.map(person => {
   return person.age
