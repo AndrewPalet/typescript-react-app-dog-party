@@ -1,6 +1,6 @@
-# Getting Started with Create React App
-
 ![alt text](https://github.com/AndrewPalet/typescript-react-app-dog-party/blob/main/public/Dog-Screenshot.png)
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
